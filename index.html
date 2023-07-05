@@ -1,0 +1,616 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Flexbox</title>
+<link rel="stylesheet" type="text/css" href="css/20230530-1.css">
+<link rel="stylesheet" type="text/css" href="css/20230531-1.css">
+<link rel="stylesheet" type="text/css" href="css/20230603-1.css">
+
+<style>
+	html{
+		font-size: 16px;
+	}	
+	*{
+		margin:0;
+		padding:0;
+		font-family:'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB','Microsoft YaHei', '微软雅黑', Arial, sans-serif;
+	}
+	a{
+		text-decoration: none;
+	}	
+	li{
+		list-style:none;
+	}
+	img{
+		display: block;
+	}
+	body{
+		height: 900px;
+		display: flex;
+/*		flex-direction: row;*/
+		justify-content:space-around;
+		align-items:center;
+		background-color: #242424;
+	}
+</style>
+</head>
+
+<body>
+	<div id="page01">		
+		<header>
+			<div class="statusBar"></div>
+			<nav>
+				<div class="left">
+					<div class="back">
+						<img src="images/23530-ic01.png" alt="">
+					</div>
+				</div>
+				<p>话费充值</p>
+				<div class="right">
+					<div class="more">
+						<img src="images/23530-ic02.png" alt="">
+					</div>
+				</div>
+			</nav>
+		</header>
+		<div class="container">		
+			<div class="notice">
+				<img src="images/23530-ic03.png" alt="">
+				<marquee>公告内容公告内容公告内容公告内容公告内容公告内容</marquee>
+			</div>
+			<div class="main">
+				<h1>138&nbsp;0928&nbsp;8697</h1>	
+				<p>北京移动<span>（号码非登陆账号）</span></p>
+				<div class="amount">
+					<div>
+						<h3>50<span>元</span></h3>
+						<p>售价49.9元</p>
+					</div>
+					<div class="number-100">
+						<h3>100<span>元</span></h3>
+						<p>售价99.8元</p>
+						<img src="images/23530-ic09.png" alt="">
+					</div>
+					<div>
+						<h3>200<span>元</span></h3>
+						<p>售价199.5元</p>
+					</div>
+					<div>
+						<h3>300<span>元</span></h3>
+						<p>售价299.4元</p>
+					</div><div>
+						<h3>500<span>元</span></h3>
+						<p>售价499元</p>
+					</div>
+					<div class="red-envelope">
+						<img src="images/23530-img01.png" alt="">
+					</div>
+				</div>	
+				<div class="coupon">
+					<div class="text">卡券</div>
+					<div class="r-select">
+						<p>可抵扣<span>5</span>元</p>
+						<img src="images/23530-ic04.png" alt="">
+					</div>
+				</div>	
+			</div>
+			<div class="protocol">
+				<input type="checkbox" >
+				<p class="">我已阅读并同意<span>《生活缴费话费充值协议》《生活缴费话费授权协议》</span></p>
+			</div>
+			<a href="#">立即充值</a>
+			<p class="copy">本服务由迷竹科技提供</p>
+			<div class="service">
+				<h2>服务推荐</h2>
+				<div class="box">
+					<div class="icon-1">
+						<img src="images/23530-ic05.png" alt="">
+						<p>优惠加油</p>
+					</div>
+					<div class="icon-2">
+						<img src="images/23530-ic06.png" alt="">
+						<p>停车缴费</p>
+					</div>
+					<div class="icon-3">
+						<img src="images/23530-ic07.png" alt="">
+						<p>罚单代缴</p>
+					</div>
+					<div class="icon-4">
+						<img src="images/23530-ic08.png" alt="">
+						<p>附近服务</p>
+					</div>
+				</div>
+			</div>
+			<p class="help">使用帮助</p>
+		</div>
+	</div>
+	
+	<div id="page02">
+		<header>
+			<div class="statusBar"></div>
+			<nav>
+				<div class="logo">
+					<img src="images/23531-img01.png" alt="">
+					<span>打开APP收藏下载</span>
+				</div>
+				<div class="button">
+					下载APP
+				</div>
+			</nav>
+		</header>
+		<main>
+			<div class="searchbox">
+				<img src="images/23531-img06.png" alt="">
+				<span>搜索你想听的歌曲</span>
+			</div>
+			<div class="bannerbox">
+				<img src="images/23531-img02.png" alt="">
+				<div class="round-dot">
+					<div class="white-dot"></div>
+					<div></div>
+					<div></div>
+					<div></div>
+					<div></div>
+					<div></div>
+				</div>
+			</div>
+			<dl class="rankings">
+				<dt>
+					<p>酷我排行榜</p>
+					<div class="more">
+						<span>更多</span>
+					</div>					
+				</dt>
+				<dd>
+					<img src="images/23531-img03.png" alt="">
+					<ul>
+						<h3>酷我热歌榜</h3>
+						<li>1.山茶花读不懂白玫瑰 - Lil笑笑</li>
+						<li>2.开往早晨的午夜 - 张碧晨</li>
+						<li>3.人间烟火 - 程响</li>
+					</ul>
+				</dd>
+				<dd>
+					<img src="images/23531-img04.png" alt="">
+					<ul>
+						<h3>酷我飙升榜</h3>
+						<li>1.璀璨冒险人 - 周深</li>
+						<li>2.遇星(纯享版) - 韩帅（HS）</li>
+						<li>3.听悲伤的情歌 - 苏醒婕</li>
+					</ul>
+				</dd>
+				<dd>
+					<img src="images/23531-img05.png" alt="">
+					<ul>
+						<h3>酷我新歌榜</h3>
+						<li>1.璀璨冒险人 - 周深</li>
+						<li>2.开往早晨的午夜 - 张碧晨</li>
+						<li>3.熟年 - 那英</li>
+					</ul>
+				</dd>
+			</dl>
+			<dl class="song-sheet">
+				<dt>
+					<p>推荐歌单</p>
+					<div class="more">
+						<span>更多</span>
+					</div>					
+				</dt>
+				<div class="bigbox">
+					<div>
+						<img src="images/23531-img13.png" alt="">
+						<div class="test-ov">
+							<p>热度100%｜频繁屏抖音的音乐旋律停不下来</p>
+						</div>
+					</div>
+					<div>
+						<img src="images/23531-img14.png" alt="">
+						<div class="test-ov">
+							<p>车载DJ｜DJ一响，带你起云飞扬</p>
+						</div>
+					</div>
+					<div>
+						<img src="images/23531-img15.png" alt="">
+						<div class="test-ov">
+							<p>曾经火爆抖音的歌曲再收听</p>
+						</div>
+					</div>
+					<div>
+						<img src="images/23531-img16.png" alt="">
+						<div class="test-ov">
+							<p>车载DJ：飙车走起，永无止息</p>
+						</div>
+					</div>
+					<div>
+						<img src="images/23531-img17.png" alt="">
+						<div class="test-ov">
+							<p>经典老歌｜唤醒我们的青葱岁月</p>
+						</div>
+					</div>
+					<div>
+						<img src="images/23531-img18.png" alt="">
+						<div class="test-ov">
+							<p>抖音铃声｜你的专属来电，唤醒灵魂</p>
+						</div>
+					</div>
+				</div>		
+			</dl>
+			<div class="listening">
+				<div class="text-lis">
+					<p>听书</p>
+					<div class="more">
+						<span>更多</span>
+					</div>					
+				</div>
+				<div class="bigbox2">
+					<dl>
+						<img src="images/23531-img19.png" alt="">
+						<dt>重温西游记，经典还是精典！</dt>
+						<dd>西游记影视剧原声重现</dd>
+					</dl>
+					<dl>
+						<img src="images/23531-img20.png" alt="">
+						<dt>岳云鹏孙越十大爆笑相声</dt>
+						<dd>岳云鹏孙越爆笑相声十大</dd>
+					</dl>
+					<dl>
+						<img src="images/23531-img21.png" alt="">
+						<dt>元芳，你怎么看？</dt>
+						<dd>狄仁杰探案集</dd>
+					</dl>
+				</div>
+			</div>
+			<div class="logobox">
+				<img src="images/23531-img10.png" alt="">
+				<p>服务协议｜隐私政策｜用户权限｜联系电话：(010)87939999<br>
+					应用版本：10.3.4.0&nbsp;开发者：北京酷我科技有限公司<br>
+					公司简介&nbsp;&gt;</p>
+			</div>			
+		</main>
+		<footer>
+				<img src="images/23531-img11.png" alt="">
+				<p>安装酷我音乐&nbsp;发现更多好音乐</p>
+				<img src="images/23531-img12.png" alt="" class="icon">
+			</footer>
+	</div>
+	
+	<div id="page03">
+		<header>
+			<div class="statusBar"></div>
+			<div class="nav">
+				<div class="left-return"></div>
+				<div class="search-box">
+					<div></div>
+					<p>搜本店</p>
+				</div>
+				<div class="right-close"></div>
+			</div>
+			<div class="navbar">
+				<a href="#" class="activation">精选</a>
+				<a href="#">商品</a>
+				<a href="#">活动</a>
+				<a href="#">上新</a>
+				<a href="#">买家秀</a>
+			</div>
+			<div class="line"></div>
+		</header>
+		<main>
+			<div class="subsidy">
+				<div class="text">
+					<h1>限时补贴专区</h1>
+					<p>5月31日 20:00:00 - 6月3日 23:59:59</p>
+				</div>
+				<div class="content">
+					<div class="clothing">
+						<img src="images/2363-img06.jpg" alt="" >
+						<h3>天竺编制&nbsp;V领T恤</h3>
+						<div class="pricebox">
+							<div class="price">
+								<p>618补贴到手价</p>
+								<div class="number">
+									<p>46</p>
+									<p class="small">元</p>
+								</div>
+							</div>
+							<div class="pic"></div>
+						</div>
+					</div>
+					<div class="clothing">
+						<img src="images/2363-img07.jpg" alt="" >
+						<h3>天竺编制&nbsp;T恤</h3>
+						<div class="pricebox">
+							<div class="price">
+								<p>618补贴到手价</p>
+								<div class="number">
+									<p>47</p>
+									<p class="small">元</p>
+								</div>
+							</div>
+							<div class="pic"></div>
+						</div>
+					</div>
+					<div class="clothing">
+						<img src="images/2363-img08.jpg" alt="" >
+						<h3>弹力牛仔修身裤</h3>
+						<div class="pricebox">
+							<div class="price">
+								<p>618补贴到手价</p>
+								<div class="number">
+									<p>215</p>
+									<p class="small">元</p>
+								</div>
+							</div>
+							<div class="pic"></div>
+						</div>
+					</div>
+					<div class="clothing">
+						<img src="images/2363-img09.jpg" alt="" >
+						<h3>短袖家居服套装</h3>
+						<div class="pricebox">
+							<div class="price">
+								<p>618补贴到手价</p>
+								<div class="number">
+									<p>69</p>
+									<p class="small">元</p>
+								</div>
+							</div>
+							<div class="pic"></div>
+						</div>
+					</div>
+					<div class="clothing">
+						<img src="images/2363-img10.jpg" alt="" >
+						<h3>无侧缝双层纱织 睡衣</h3>
+						<div class="pricebox">
+							<div class="price">
+								<p>618补贴到手价</p>
+								<div class="number">
+									<p>148</p>
+									<p class="small">元</p>
+								</div>
+							</div>
+							<div class="pic"></div>
+						</div>
+					</div>
+					<div class="clothing">
+						<img src="images/2363-img11.jpg" alt="" >
+						<h3>圆领条纹短袖T恤</h3>
+						<div class="pricebox">
+							<div class="price">
+								<p>618补贴到手价</p>
+								<div class="number">
+									<p>40</p>
+									<p class="small">元</p>
+								</div>
+							</div>
+							<div class="pic2"></div>
+						</div>
+					</div>
+				</div>
+				<button type="button">查看全部</button>
+			</div>
+			<div class="jiabai">
+				<div class="text">
+					<h1>家百专区</h1>
+					<p>生活好物&nbsp;提升居家幸福感</p>
+				</div>
+				<div class="content">
+					<div class="clothing">
+						<img src="images/2363-img15.jpg" alt="" >
+						<h3>羽绒被</h3>
+						<div class="pricebox">
+							<p>618会员到手价</p>
+							<div class="price">
+								<p>&yen;</p>
+								<p class="big">398</p>
+								<p>起</p>
+							</div>
+						</div>
+					</div>
+					<div class="clothing">
+						<img src="images/2363-img16.jpg" alt="" >
+						<h3>水洗棉&nbsp;被套</h3>
+						<div class="pricebox">
+							<p>618会员到手价</p>
+							<div class="price">
+								<p>&yen;</p>
+								<p class="big">220</p>
+								<p>起</p>
+							</div>
+						</div>
+					</div>
+					<div class="clothing">
+						<img src="images/2363-img17.jpg" alt="" >
+						<h3>慢回弹凉感枕</h3>
+						<div class="pricebox">
+							<p>618会员到手价</p>
+							<div class="price">
+								<p>&yen;</p>
+								<p class="big">298</p>
+								<p></p>
+							</div>
+						</div>
+					</div>
+					<div class="clothing">
+						<img src="images/2363-img18.jpg" alt="" >
+						<h3>空气循环风扇</h3>
+						<div class="pricebox">
+							<p>618会员到手价</p>
+							<div class="price">
+								<p>&yen;</p>
+								<p class="big">345</p>
+								<p></p>
+							</div>
+						</div>
+					</div>
+					<div class="clothing">
+						<img src="images/2363-img19.jpg" alt="" >
+						<h3>超声波香薰机</h3>
+						<div class="pricebox">
+							<p>618会员到手价</p>
+							<div class="price">
+								<p>&yen;</p>
+								<p class="big">259</p>
+								<p></p>
+							</div>
+						</div>
+					</div>
+					<div class="clothing">
+						<img src="images/2363-img20.jpg" alt="" >
+						<h3>共聚酯便携水杯</h3>
+						<div class="pricebox">
+							<p>618会员到手价</p>
+							<div class="price">
+								<p>&yen;</p>
+								<p class="big">42</p>
+								<p>起</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<button type="button">查看全部</button>
+			</div>
+			<div class="allcommodity">
+				<div class="navbar">
+					<a href="#" class="activation">推荐</a>
+					<a href="#">销量</a>
+					<a href="#">新品</a>
+					<a href="#" class="sorticon">价格</a>
+				</div>
+				<div class="container-3">
+					<div class="commodity">
+						<img src="images/2363-img23-1.JPG" alt="">
+						<p class="text"><span>热销</span>&nbsp;无印良品MUJI男士无侧缝双层纱织家居服睡衣</p>
+						<p class="label">本店睡衣/家居服热销第1名</p>
+						<div>
+							<p>&yen;</p>
+							<p class="big">248</p>
+							<p>.00</p>
+						</div>
+						<p class="graytt">5000+条评价&nbsp;好评98%</p>
+					</div>
+					<div class="commodity">
+						<img src="images/2363-img23-2.JPG" alt="">
+						<p class="text"><span>热销</span>&nbsp;无印良品MUJI男士无侧缝双层纱织家居服睡衣</p>
+						<p class="label">本店睡衣/家居服热销第1名</p>
+						<div>
+							<p>&yen;</p>
+							<p class="big">248</p>
+							<p>.00</p>
+						</div>
+						<p class="graytt">5000+条评价&nbsp;好评98%</p>
+					</div>
+					<div class="commodity">
+						<img src="images/2363-img23-3.JPG" alt="">
+						<p class="text"><span>热销</span>&nbsp;无印良品MUJI男士无侧缝双层纱织家居服睡衣</p>
+						<p class="label">本店睡衣/家居服热销第1名</p>
+						<div>
+							<p>&yen;</p>
+							<p class="big">248</p>
+							<p>.00</p>
+						</div>
+						<p class="graytt">5000+条评价&nbsp;好评98%</p>
+					</div>
+					<div class="commodity">
+						<img src="images/2363-img23-5.JPG" alt="">
+						<p class="text"><span>热销</span>&nbsp;无印良品MUJI男士无侧缝双层纱织家居服睡衣</p>
+						<p class="label">本店睡衣/家居服热销第1名</p>
+						<div>
+							<p>&yen;</p>
+							<p class="big">248</p>
+							<p>.00</p>
+						</div>
+						<p class="graytt">5000+条评价&nbsp;好评98%</p>
+					</div>
+					<div class="commodity">
+						<img src="images/2363-img23-6.JPG" alt="">
+						<p class="text"><span>热销</span>&nbsp;无印良品MUJI男士无侧缝双层纱织家居服睡衣</p>
+						<p class="label">本店睡衣/家居服热销第1名</p>
+						<div>
+							<p>&yen;</p>
+							<p class="big">248</p>
+							<p>.00</p>
+						</div>
+						<p class="graytt">5000+条评价&nbsp;好评98%</p>
+					</div>
+					<div class="commodity">
+						<img src="images/2363-img23-4.JPG" alt="">
+						<p class="text"><span>热销</span>&nbsp;无印良品MUJI男士无侧缝双层纱织家居服睡衣</p>
+						<p class="label">本店睡衣/家居服热销第1名</p>
+						<div>
+							<p>&yen;</p>
+							<p class="big">248</p>
+							<p>.00</p>
+						</div>
+						<p class="graytt">5000+条评价&nbsp;好评98%</p>
+					</div>
+					<div class="commodity">
+						<img src="images/2363-img23-7.JPG" alt="">
+						<p class="text"><span>热销</span>&nbsp;无印良品MUJI男士无侧缝双层纱织家居服睡衣</p>
+						<p class="label">本店睡衣/家居服热销第1名</p>
+						<div>
+							<p>&yen;</p>
+							<p class="big">248</p>
+							<p>.00</p>
+						</div>
+						<p class="graytt">5000+条评价&nbsp;好评98%</p>
+					</div>
+					<div class="commodity">
+						<img src="images/2363-img23-8.JPG" alt="">
+						<p class="text"><span>热销</span>&nbsp;无印良品MUJI男士无侧缝双层纱织家居服睡衣</p>
+						<p class="label">本店睡衣/家居服热销第1名</p>
+						<div>
+							<p>&yen;</p>
+							<p class="big">248</p>
+							<p>.00</p>
+						</div>
+						<p class="graytt">5000+条评价&nbsp;好评98%</p>
+					</div>
+					<div class="commodity">
+						<img src="images/2363-img23-9.JPG" alt="">
+						<p class="text"><span>热销</span>&nbsp;无印良品MUJI男士无侧缝双层纱织家居服睡衣</p>
+						<p class="label">本店睡衣/家居服热销第1名</p>
+						<div>
+							<p>&yen;</p>
+							<p class="big">248</p>
+							<p>.00</p>
+						</div>
+						<p class="graytt">5000+条评价&nbsp;好评98%</p>
+					</div>
+					<div class="commodity">
+						<img src="images/2363-img23-10.JPG" alt="">
+						<p class="text"><span>热销</span>&nbsp;无印良品MUJI男士无侧缝双层纱织家居服睡衣</p>
+						<p class="label">本店睡衣/家居服热销第1名</p>
+						<div>
+							<p>&yen;</p>
+							<p class="big">248</p>
+							<p>.00</p>
+						</div>
+						<p class="graytt">5000+条评价&nbsp;好评98%</p>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer>
+			<div class="tabbar">
+				<div>
+					<img src="images/2363-img02.jpg" alt="">
+					<p class="tab1">首页</p>
+				</div>
+				<div>
+					<img src="images/2363-img03.jpg" alt="">
+					<p>全部商品</p>
+				</div>
+				<div>
+					<img src="images/2363-img04.jpg" alt="">
+					<p>商品分类</p>
+				</div>
+				<div>
+					<img src="images/2363-img05.jpg" alt="">
+					<p>品牌会员</p>
+				</div>
+			</div>
+		</footer>
+	</div>	
+</body>
+</html>

@@ -1,0 +1,371 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#page03{
+	width: 375px;
+	height: 812px;
+	background: #f5f5f5 url(../images/2363-img26.png) no-repeat ;
+	background-size: 375px;
+	position:relative;
+}
+#page03 header{
+/*
+	display: flex;
+	flex-direction:column;
+*/
+	width: 375px;
+	background: url(../images/2363-img26.png) no-repeat ;
+	background-size: 375px;
+	position:absolute;
+	left:0;
+	top:0;
+}
+#page03 .statusBar,#page03 .nav{
+/*	width: 100%;*/
+	height: 44px;
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+	padding: 0 7px 0 16px;
+}
+#page03 .nav .left-return{
+	width: 60px;
+	height: 44px;
+	background: url(../images/2363-img24.png) no-repeat left center;
+	background-size: 88px;
+}
+#page03 .nav .right-close{
+	width: 88px;
+	height: 44px;
+	background: url(../images/2363-img25.png) no-repeat left center;
+	background-size: 88px;
+}
+#page03 .search-box{
+	width: 180px;
+	height: 32px;
+	background-color: rgba(255, 255, 255, .3);
+	border-radius: 16px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #f5f5f5;
+	font-size: .875rem;
+}
+#page03 .search-box div{
+	width: 20px;
+	height: 20px;
+	background: url(../images/2363-img22.png) no-repeat;
+	background-size: 20px;
+	margin-right: 4px;
+}
+#page03 header .navbar{
+	width: 100%;
+	display:flex;
+	justify-content: space-around;
+	padding-bottom: 8px;
+}
+#page03 header .navbar a{
+	display: inline-block;
+	width: 12%;
+	height: 40px;
+	color: #fff;
+	font-size: .875rem;
+	font-weight: 400;
+	text-align: center;
+	line-height: 40px;
+}
+#page03 header .navbar .activation{
+	border-bottom: 3px solid #fff;
+	font-weight: 700;
+}
+#page03 main{
+	height: 812px;
+	display: flex;
+	flex-direction:column;
+	align-items: center;
+	overflow: scroll;
+}
+#page03 main .subsidy{
+	width: 335px;
+	background-color: #801a1a;
+	padding: 10px;
+	border-radius: 8px;
+	margin-top: 149px;
+}
+#page03 main .subsidy .text{
+	color: #fff;
+	padding-bottom: 8px;
+}
+#page03 main .subsidy .text h1{
+	font-size: 1.5rem
+}
+#page03 main .subsidy .text p{
+	font-size: .875rem;
+	font-weight: 500;
+}
+#page03 main .subsidy .content{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-bottom: 10px;
+}
+#page03 main .subsidy .clothing{
+	width: 110.2px;
+	background-color: #fff;
+	border-radius: 6px;
+	overflow: hidden;
+	margin-top: 2px;
+}
+#page03 main .subsidy .clothing img{
+	width: 111px;
+}
+#page03 main .subsidy .clothing h3{
+	font-size: .625rem;
+	padding-top: 8px;
+	margin-left: 8px;
+}
+#page03 main .subsidy .clothing .pricebox{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 4px 0 8px 0;
+	padding: 0 8px;
+}
+#page03 main .subsidy .clothing .pricebox .price p{
+	font-size: .5rem;
+	color: #801a1a;
+}
+#page03 main .subsidy .clothing .pricebox .number{
+	display:flex;
+	align-items: flex-end;
+}
+#page03 main .subsidy .clothing .pricebox .number p{
+	font-size:.75rem;
+	font-weight: 500;
+}
+#page03 main .subsidy .clothing .pricebox .number .small{
+	font-size:.5rem;
+	font-weight: 400;
+}
+#page03 main .subsidy .clothing .pricebox .pic{
+	width: 24px;
+	height: 24px;
+	background: url(../images/2363-img12.jpg) no-repeat center;
+	background-size:contain;
+}
+#page03 main .subsidy .clothing .pricebox .pic2{
+	width: 24px;
+	height: 24px;
+	background: url(../images/2363-img13.jpg) no-repeat center;
+	background-size:contain;
+}
+#page03 main .subsidy button{
+	width: 100%;
+	height: 44px;
+	font-size: .875rem;
+	color: #801a1a;
+	background-color: #fff;
+	border: none;
+	border-radius: 6px;
+}
+#page03 main .jiabai{
+	width: 335px;
+	background-color: #fff;
+	padding: 10px;
+	border-radius: 8px;
+	margin: 10px 0;
+}
+#page03 main .jiabai .text h1{
+	font-size: 1.5rem;
+	width: 192px;
+	background: url(../images/2363-img14.jpg) no-repeat center right;
+	background-size: 92px;
+}
+#page03 main .jiabai .text p{
+	font-size: .875rem;
+	padding-bottom: 12px;
+}
+#page03 main .jiabai .content{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+#page03 main .jiabai .clothing{
+	width: 108px;
+	padding-bottom: 12px;
+}
+#page03 main .jiabai .clothing img{
+	width: 108px;
+	border-radius: 6px;
+}
+#page03 main .jiabai .clothing h3{
+	width: 100%;
+	font-size: .625rem;
+	padding: 8px 0 2px 0;
+	text-align: center;
+}
+#page03 main .jiabai .clothing .pricebox{
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+}
+#page03 main .jiabai .clothing .pricebox p{
+	font-size: .5rem;
+	color: #801a1a;	
+}
+#page03 main .jiabai .clothing .pricebox .price{
+	display: flex;
+	align-items: flex-end;
+	margin-left: 2px;
+}
+#page03 main .jiabai .clothing .pricebox .price .big{
+	font-size:.75rem;
+	font-weight: 500;
+}
+#page03 main .jiabai button{
+	width: 100%;
+	height: 44px;
+	font-size: .875rem;
+	color: #fff;
+	background-color: #801a1a;
+	border: none;
+	border-radius: 6px;
+}
+#page03 main .allcommodity{
+	width: 100%;
+}
+#page03 main .allcommodity .navbar{
+	height: 44px;
+	background-color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#page03 main .allcommodity .navbar a{
+	display: inline-block;
+	width: 25%;
+	text-align: center;
+	color: #333;
+	font-size: .875rem;
+	font-weight: 500;
+}
+#page03 main .allcommodity .navbar .activation{
+	color: red;
+}
+#page03 main .allcommodity .navbar .sorticon{
+	background: url(../images/2363-img21.png) no-repeat 62px center;
+	background-size: 12px;
+}
+#page03 main .allcommodity .container-3{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	background-color: #f5f5f5;
+	padding: 10px;
+	margin-bottom: 100px;
+}
+#page03 main .allcommodity .container-3 .commodity{
+	width: 174px;
+	background-color: #fff;
+	border-radius: 8px;
+	padding-bottom: 10px;
+	margin-bottom: 7px;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+#page03 main .allcommodity .container-3 .commodity img{
+	width: 100%;
+	margin-bottom: 10px;
+}
+#page03 main .allcommodity .container-3 .commodity .text{
+	font-size: .875rem;
+	width: 154px;
+	height: 32px;
+	line-height: 16px;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin: 0 auto;
+}
+#page03 main .allcommodity .container-3 .commodity .text span{
+	display: inline-block;
+	font-size: .56rem;
+	text-align: center;
+	line-height: 14px;
+	color: #fff;
+	width: 26px;
+	height: 14px;
+	background-color: red;
+	border-radius: 7px;
+}
+#page03 main .allcommodity .container-3 .commodity .label{
+	font-size: .75rem;
+	color: red;
+	width: 150px;
+	height: 16px;
+	background-color: #faeae8;
+	border-radius: 8px;
+	margin: 6px 0 6px 10px;
+	text-align: center;
+	line-height: 16px;
+}
+#page03 main .allcommodity .container-3 .commodity div{
+	display: flex;
+	align-items: flex-end;
+	margin-left: 10px;
+}
+#page03 main .allcommodity .container-3 .commodity div p{
+	color: red;
+	font-size: .5rem;
+}
+#page03 main .allcommodity .container-3 .commodity div .big{
+	font-size: .875rem;
+	font-weight: 500;
+}
+#page03 main .allcommodity .graytt{
+	font-size: .75rem;
+	color: #999;
+	margin-left: 10px;
+}
+#page03 footer{
+	widows: 375px;
+	height: 82px;
+	background-color: rgba(255,255,255,.95);
+	position: absolute;
+	bottom:0;
+}
+#page03 footer .tabbar{
+	widows: 100%;
+	height: 48px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#page03 footer .tabbar div{
+	width: 93.75px;
+	height: 48px;
+}
+#page03 footer .tabbar img{
+	width: 24px;
+	margin: 4px auto;
+}
+#page03 footer .tabbar p{
+	color: #666;
+	font-size: .625rem;
+	text-align: center;
+}
+#page03 footer .tabbar .tab1{
+	color: red;
+}
+
+
+
+
+
+
+
+
+

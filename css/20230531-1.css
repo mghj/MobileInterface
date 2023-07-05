@@ -1,0 +1,242 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#page02{
+	width: 375px;
+	height: 812px;
+	background-color: #f9fafa;
+	position:relative;
+}
+#page02 header{
+	display: flex;
+	flex-direction:column;
+}
+#page02 .statusBar,#page02 nav{
+	width: 100%;
+	height: 44px;
+	background-color: #fff;
+}
+#page02 header nav .logo{
+	height: 44px;
+	display: flex;
+	align-items: center;
+	margin-left: 16px;
+}
+#page02 header img{
+	width: 94px;
+	height: 30px;
+}
+#page02 header span{
+	color: #999;
+	font-size: .75rem;
+	margin-left: 8px;
+}
+#page02 header nav .button{
+	width: 80px;
+	height: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 15px;
+	background-color: #fae451;
+	margin-right: 16px;
+	font-size: .875rem;
+}
+#page02 main{
+	width: 100%;
+	height: 89.2%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	overflow:scroll;
+}
+#page02 main .searchbox{
+	width: 92%;
+	height: 32px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #f2f3f4;
+	border-radius: 16px;
+	margin: 10px 0;
+}
+#page02 main .searchbox img{
+	width: 16px;
+}
+#page02 main .searchbox span{
+	line-height: 32px;
+	color: #a1a4b1;
+	font-size: .875rem;
+	margin-left: 12px;	
+}
+#page02 main .bannerbox {
+	width: 92%;
+	height: 108px;
+	border-radius: 8px;
+	position:relative;
+}
+#page02 main .bannerbox img{
+	width: 100%;
+	border-radius: 6px;
+}
+#page02 main .bannerbox .round-dot{
+	width: 100%;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	position:absolute;
+	left:0;
+	bottom:5px;
+}
+#page02 main .bannerbox .round-dot div{
+	width: 5px;
+	height: 5px;
+	background-color: rgba(255, 255, 255, .4);
+	border-radius: 50%;
+	margin: 0 2px;
+}
+#page02 main .bannerbox .round-dot .white-dot{
+	background-color:#fff;
+}
+#page02 main .rankings,.song-sheet,.listening{
+	width: 92%;
+}
+#page02 main .rankings dt,.song-sheet dt,.listening .text-lis{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 24px;
+}
+#page02 main .rankings p,.song-sheet dt p,.listening .text-lis p{
+	font-weight: 700;
+}
+#page02 main .rankings .more,.song-sheet .more,.listening .text-lis .more{
+	width: 38px;
+	color: #a1a4b1;
+	font-size: .75rem;
+	background: url(../images/23531-img07.png) no-repeat right center ;
+	background-size: 12px;
+}
+#page02 main .rankings dd{
+	background-color: #fff;
+	border-radius: 16px;
+	display: flex;
+	align-items: center;
+	margin-top: 16px;
+}
+#page02 main .rankings dd img{
+	width: 105px;
+	height: 105px;
+	margin-right: 20px;
+}
+#page02 main .rankings dd h3{
+	font-size: .875rem;
+	background: url(../images/23531-img08.png) no-repeat 72px center;
+	background-size: 12px;
+	margin-bottom: 8px;
+}
+#page02 main .rankings dd li{
+	font-size: .75rem;
+	color: #a1a4b1;
+}
+#page02 main .song-sheet .bigbox{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	
+}
+#page02 main .song-sheet .bigbox div{
+	width: 105px;
+	
+}
+#page02 main .song-sheet img{
+	width: 105px;
+	height: 105px;
+	margin: 16px 0 8px 0;
+}
+#page02 main .song-sheet div p{
+	width: 105px;
+	height: 36px;
+	font-size: .875rem;
+	line-height: 18px;
+	display: -webkit-box;
+ 	-webkit-box-orient: vertical;
+  	-webkit-line-clamp: 2;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+#page02 main .listening .bigbox2{
+	display: flex;
+	justify-content: space-between;
+}
+#page02 main .listening .bigbox2 dl{
+	width: 105px;
+}
+#page02 main .listening .bigbox2 img{
+	width: 105px;
+	height: 105px;
+	margin: 16px 0 8px 0;
+}
+#page02 main .listening .bigbox2 dt{
+	font-size: .875rem;
+	line-height: 18px;
+}
+#page02 main .listening .bigbox2 dd{
+	font-size: .75rem;
+	color: #a1a4b1;
+	white-space:nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+#page02 main .logobox{
+	width: 92%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 120px;
+}
+#page02 main .logobox p{
+	text-align: center;
+	font-size: .75rem;
+	color: #a1a4b1;
+}
+#page02 main .logobox img{
+	width: 85px;
+	margin: 50px 0 12px 0;
+}
+#page02 footer{
+	width: 85.3%;
+	font-size: .875rem;
+	font-weight: 500;
+	line-height: 44px;
+	display: flex;
+	align-items: center;
+	background-color: #fff;
+	border-radius: 23px;
+	position:absolute;
+	left:27.5px;
+	bottom:50px;
+	box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+#page02 footer img{
+	width: 37px;
+	margin: 0 8px 0 18px;
+}
+#page02 footer .icon{
+	width: 27px;
+	height: 27px;
+	margin-left: 34px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
